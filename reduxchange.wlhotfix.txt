@@ -8132,7 +8132,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_11.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
 
 # Setting the Enemy in said spawner
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_14.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_14.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/Troll/_Unique/SpawnOptions_Troll_Blacksmith.SpawnOptions_Troll_Blacksmith'
 
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight,Options.Options[0].Factory.Object..SpawnExtent,0,,(X=0,Y=0,Z=180.0)
 
@@ -8200,7 +8200,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_13.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
 
 # Setting the Enemy in said spawner
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_16.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_16.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/Troll/_Unique/SpawnOptions_Troll_Blacksmith.SpawnOptions_Troll_Blacksmith'
 
 # OBELISK VISUAL (Change the level depending on)
 #crystal mesh
@@ -8268,7 +8268,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_15.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
 
 # Setting the Enemy in said spawner
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_18.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_18.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/Troll/_Unique/SpawnOptions_Troll_Blacksmith.SpawnOptions_Troll_Blacksmith'
 
 # OBELISK VISUAL (Change the level depending on)
 #crystal mesh
@@ -8336,7 +8336,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_17.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
 
 # Setting the Enemy in said spawner
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_20.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_20.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/Troll/_Unique/SpawnOptions_Troll_Blacksmith.SpawnOptions_Troll_Blacksmith'
 
 # OBELISK VISUAL (Change the level depending on)
 #crystal mesh
