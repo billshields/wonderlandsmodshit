@@ -7883,24 +7883,24 @@ SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 
 ## 6
 # Obelisk Cost
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
 
 # Make the Obelisk
 SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
 #Obelisk Location
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=6635.000000,z=5190.000000)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=50.0,roll=0.0)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=6635.000000,z=5190.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=50.0,roll=0.0)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
 
 # Connect a single spawner to the obelisk
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7'
 
 # Spawn location/rotation of said spawner
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7.SpawnPointComponent,RelativeLocation,0,,(x=210,y=0,z=10)
 ###SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7.SpawnPointComponent,RelativeRotation,0,,(x=150,y=150,z=50)
 
 # location of the collision box (lift it up)
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=-1500)
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=-1500)
 
 # Setting the Enemy in said spawner
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/Troll/_Unique/SpawnOptions_Troll_Blacksmith.SpawnOptions_Troll_Blacksmith'
@@ -7911,29 +7911,29 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Enemies/_Spawning/Troll/_Unique
 #crystal mesh
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.
 #VFX
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4,PS_BaseGlow.Template,0,,None
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4,PS_Idle.Template,0,,None
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5,PS_BaseGlow.Template,0,,None
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_5,PS_Idle.Template,0,,None
 
 ## 7
 # Obelisk Cost
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
 
 # Make the Obelisk
 SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
 #Obelisk Location
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=6635.000000,z=5190.000000)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=50.0,roll=0.0)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=6635.000000,z=5190.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=50.0,roll=0.0)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
 
 # Connect a single spawner to the obelisk
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7'
 
 # Spawn location/rotation of said spawner
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7.SpawnPointComponent,RelativeLocation,0,,(x=210,y=0,z=10)
 ###SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7.SpawnPointComponent,RelativeRotation,0,,(x=150,y=150,z=50)
 
 # location of the collision box (lift it up)
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=-1500)
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=-1500)
 
 # Setting the Enemy in said spawner
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_7.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/Troll/_Unique/SpawnOptions_Troll_Blacksmith.SpawnOptions_Troll_Blacksmith'
@@ -7944,8 +7944,8 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Enemies/_Spawning/Troll/_Unique
 #crystal mesh
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.
 #VFX
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4,PS_BaseGlow.Template,0,,None
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_4,PS_Idle.Template,0,,None
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6,PS_BaseGlow.Template,0,,None
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_6,PS_Idle.Template,0,,None
 
 
 # Tonhammer Itempool
