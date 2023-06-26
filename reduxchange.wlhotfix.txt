@@ -8098,12 +8098,7 @@ SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 
 # Setting the Enemy in said spawner
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,1,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
 
 # OBELISK VISUAL (Change the level depending on)
 #crystal mesh
