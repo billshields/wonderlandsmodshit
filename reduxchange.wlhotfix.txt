@@ -8301,7 +8301,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
 #Obelisk Location
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_17.DefaultSceneRoot,RelativeLocation,0,,(x=16369.000000,y=17611.000000,z=6518.000000)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_17.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=80.0,roll=0.0)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_17.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=80.0,roll=45.0)
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_17.DefaultSceneRoot,RelativeScale3D,0,,(x=.600000,y=.600000,z=.600000)
 
 # Connect a single spawner to the obelisk
