@@ -7727,7 +7727,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 # Make the Obelisk
 SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
 #Obelisk Location
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_0.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=6635.000000,z=5199.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_0.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=7635.000000,z=5699.000000)
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_0.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=50.0,roll=0.0)
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_0.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
 
@@ -7759,7 +7759,7 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 # Make the Obelisk
 SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
 #Obelisk Location
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_1.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=6635.000000,z=5190.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_1.DefaultSceneRoot,RelativeLocation,0,,(x=-443.000000,y=7635.000000,z=5190.000000)
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_1.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=50.0,roll=0.0)
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_1.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
 
