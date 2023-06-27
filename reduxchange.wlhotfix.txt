@@ -7573,32 +7573,26 @@ SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Eyeclops/Splitter/_Desi
 SparkPatchEntry,(1,1,0,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,ActionText,0,,Pay %i Gold to spawn Unique Enemy
 SparkPatchEntry,(1,1,0,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,bCostsToUse,0,,false
 SparkPatchEntry,(1,1,0,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,CurrencyType,0,,InventoryCategoryData'/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_Money.InventoryCategory_Money'
-SparkPatchEntry,(1,1,0,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,Cost,0,,(BaseValueConstant=7500,BaseValueScale=1)
 
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,ActionText,0,,Pay %i Gold to spawn Unique Enemy
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,bCostsToUse,0,,false
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,CurrencyType,0,,InventoryCategoryData'/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_Money.InventoryCategory_Money'
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,Cost,0,,(BaseValueConstant=7500,BaseValueScale=1)
 
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,ActionText,0,,Pay %i Gold to spawn Unique Enemy
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,bCostsToUse,0,,false
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,CurrencyType,0,,InventoryCategoryData'/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_Money.InventoryCategory_Money'
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,Cost,0,,(BaseValueConstant=7500,BaseValueScale=1)
 
 SparkPatchEntry,(1,1,1,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,ActionText,0,,Pay %i Gold to spawn Unique Enemy
 SparkPatchEntry,(1,1,1,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,bCostsToUse,0,,false
 SparkPatchEntry,(1,1,1,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,CurrencyType,0,,InventoryCategoryData'/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_Money.InventoryCategory_Money'
-SparkPatchEntry,(1,1,1,),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,Cost,0,,(BaseValueConstant=7500,BaseValueScale=1)
 
 SparkLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,ActionText,0,,Pay %i Gold to spawn Unique Enemy
 SparkLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,bCostsToUse,0,,false
 SparkLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,CurrencyType,0,,InventoryCategoryData'/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_Money.InventoryCategory_Money'
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,Cost,0,,(BaseValueConstant=7500,BaseValueScale=1)
 
 SparkEarlyLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,ActionText,0,,Pay %i Gold to spawn Unique Enemy
 SparkEarlyLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,bCostsToUse,0,,false
 SparkEarlyLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,CurrencyType,0,,InventoryCategoryData'/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_Money.InventoryCategory_Money'
-SparkEarlyLevelPatchEntry,(1,1,1,MatchAll),/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss,Cost,0,,(BaseValueConstant=7500,BaseValueScale=1)
 
 
 
