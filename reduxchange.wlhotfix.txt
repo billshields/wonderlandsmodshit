@@ -8216,7 +8216,73 @@ SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Gob
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
 
 # Setting the Enemy in said spawner
-SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnerComponent.SpawnerStyle_SpawnerStyle_Double,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+
+# OBELISK VISUAL (Change the level depending on)
+#crystal mesh
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.
+#VFX
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14,PS_BaseGlow.Template,0,,None
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14,PS_Idle.Template,0,,None
+
+## 5
+
+#UI
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
+
+
+# Make the Obelisk
+SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
+#Obelisk Location
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.DefaultSceneRoot,RelativeLocation,0,,(x=16369.000000,y=17611.000000,z=6540.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=80.0,roll=0.0)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
+
+# Connect a single spawner to the obelisk
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17'
+
+# Spawn location/rotation of said spawner
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnPointComponent,RelativeLocation,0,,(x=-310,y=0,z=10)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnPointComponent,RelativeRotation,0,,(x=220,y=0,z=0)
+
+# location of the collision box (lift it up)
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
+
+# Setting the Enemy in said spawner
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
+
+# OBELISK VISUAL (Change the level depending on)
+#crystal mesh
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.
+#VFX
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14,PS_BaseGlow.Template,0,,None
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14,PS_Idle.Template,0,,None
+
+## 5
+
+#UI
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
+
+
+# Make the Obelisk
+SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
+#Obelisk Location
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.DefaultSceneRoot,RelativeLocation,0,,(x=16369.000000,y=17611.000000,z=6480.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=80.0,roll=0.0)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
+
+# Connect a single spawner to the obelisk
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17'
+
+# Spawn location/rotation of said spawner
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnPointComponent,RelativeLocation,0,,(x=-310,y=0,z=10)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnPointComponent,RelativeRotation,0,,(x=220,y=0,z=0)
+
+# location of the collision box (lift it up)
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_14.UsableCollision,RelativeLocation,0,,(x=0,y=0,z=1500)
+
+# Setting the Enemy in said spawner
+SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_17.SpawnerComponent.SpawnerStyle_SpawnerStyle_Single,SpawnOptions,0,,SpawnOptionData'/Game/Enemies/_Spawning/BoneArmy/_Unique/SpawnOptions_Unique_GuardianKnight.SpawnOptions_Unique_GuardianKnight'
 
 # OBELISK VISUAL (Change the level depending on)
 #crystal mesh
