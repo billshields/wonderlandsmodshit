@@ -8079,12 +8079,11 @@ SparkCharacterLoadedEntry,(1,1,0,BPChar_BoneArmy_FrostKing),/Game/Enemies/BoneAr
 SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_10.Usable,PrimaryUseDefSelection,0,,(DefaultUseDefinition=UsableTypeDefinition'/Game/InteractiveObjects/AncientEncounters/Data/DA_UseDef_RespawnableBoss.DA_UseDef_RespawnableBoss')
 
 
-# Make the Obelisk
-SparkEarlyLevelPatchEntry,(1,11,0,Goblin_P),/Game/Maps/Zone_1/Goblin,/Game/InteractiveObjects/AncientEncounters,IO_AncientEncounter_Respawnable,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
-#Obelisk Location
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_10.DefaultSceneRoot,RelativeLocation,0,,(x=16369.000000,y=17611.000000,z=6518.000000)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_10.DefaultSceneRoot,RelativeRotation,0,,(pitch=0.0,yaw=80.0,roll=0.0)
-SparkEarlyLevelPatchEntry,(1,1,1,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_10.DefaultSceneRoot,RelativeScale3D,0,,(x=0.400000,y=0.400000,z=0.400000)
+# we fuckin
+SparkEarlyLevelPatchEntry,(1,11,0,Goblin),/Game/Maps/Zone_1,/Game/InteractiveObjects/GameSystemMachines/QuickChange,BP_QuickChange,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
+# Doing repositioning for BP_QuickChange_C_0 in Goblin
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin),/Game/Maps/Zone_1/Goblin.Goblin:PersistentLevel.BP_QuickChange_C_0.RootComponent,RelativeLocation,0,,(X=-443.000000,Y=6635.000000,Z=5190.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Goblin),/Game/Maps/Zone_1/Goblin.Goblin:PersistentLevel.BP_QuickChange_C_0.RootComponent,RelativeScale3D,0,,(X=4.000000,Y=4.000000,Z=4.000000)
 
 # Connect a single spawner to the obelisk
 SparkEarlyLevelPatchEntry,(1,1,0,Goblin_P),/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.IO_AncientEncounter_Respawnable_C_10,Enemies_Spawner_Ref,0,,OakSpawner'/Game/Maps/Zone_1/Goblin/Goblin_P.Goblin_P:PersistentLevel.OakSpawner_13'
